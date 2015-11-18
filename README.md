@@ -1,5 +1,7 @@
 # Git-Bash-Themes
 ## Themes List
-- LateNight
+* LateNight
 
-   Uses a 2 line pormpt. Line one displays username, hostname, current directory, and git branch info (if it exists). Line two uses a colored arrows to signal if the last command produced an exit code of 0 (ie: if the command executed successfuly).
+   Requires xterm-256color terminal type
+   
+   ![LateNight v1.0](https://raw.githubusercontent.com/Tanium-JCampbell/Git-Bash-Themes/master/ScreenShots/LateNight-v1.0.PNG)
