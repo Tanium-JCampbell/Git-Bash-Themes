@@ -6,6 +6,7 @@
 export PATH="$PATH:/c/Python27:./node_modules/.bin"
 
 alias color_ls='for i in {000..255}; do echo -e "$i: \\033[38;5;${i}m Colored text\\033[0m"; done'
+alias gosrc='cd ~/Desktop/Source'
 
 FG(){
 	colorCode=$1
@@ -21,8 +22,8 @@ reset_color(){
 
 set_prompt() {
 	prevExitCode=$?
-	userInfo="$(FG 226)[$(FG 202)\u$(FG 226)☼$(FG 208)\h$(FG 226)]"
-	currDir="$(FG 214)\w"
+	userInfo="$(FG 226)[$(FG 166)\u$(FG 226)☼$(FG 214)\h$(FG 226)]"
+	currDir="$(FG 202)\w"
 
 	arrowChar='>'
 	if [[ $prevExitCode == 0 ]]; then
